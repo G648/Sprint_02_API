@@ -1640,19 +1640,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlos.roque\\.nuget\\packages\\": {}
+    "C:\\Users\\45845444845\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlos.roque\\Desktop\\Inlock\\webapi.inlock\\webapi.inlock.csproj",
+      "projectUniqueName": "C:\\Users\\45845444845\\Desktop\\2023-1S-2D\\sprint-2-api\\Inlock\\webapi.inlock\\webapi.inlock.csproj",
       "projectName": "webapi.inlock",
-      "projectPath": "C:\\Users\\carlos.roque\\Desktop\\Inlock\\webapi.inlock\\webapi.inlock.csproj",
-      "packagesPath": "C:\\Users\\carlos.roque\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlos.roque\\Desktop\\Inlock\\webapi.inlock\\obj\\",
+      "projectPath": "C:\\Users\\45845444845\\Desktop\\2023-1S-2D\\sprint-2-api\\Inlock\\webapi.inlock\\webapi.inlock.csproj",
+      "packagesPath": "C:\\Users\\45845444845\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45845444845\\Desktop\\2023-1S-2D\\sprint-2-api\\Inlock\\webapi.inlock\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carlos.roque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45845444845\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1714,7 +1714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

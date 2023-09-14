@@ -28,12 +28,10 @@ namespace webapi.inlock.codeFirst.manha.Domains
         [Required(ErrorMessage ="Preço do jogo obrigatório!")]
         public decimal Preco { get; set; }
 
-
         //Referência da Chave estrangeira (Tabela de Estúdio)
 
         [Required(ErrorMessage ="Informe o estúdio que produziu o jogo")]
         public Guid IdEstudio { get; set; }
-
 
         [ForeignKey("IdEstudio")]
         public Estudio? Estudio { get; set; }
