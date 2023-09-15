@@ -8,6 +8,7 @@ namespace webapi.inlock.codeFirst.manha.Contexts
         //essa classe vai representar a nossa conexão com banco de dados 
         //vamos definir as entidades do banco de dados
 
+        //          <classe>  Tabela
         public DbSet<Estudio> Estudio { get; set; }
         public DbSet<Jogo> Jogo { get; set; }
         public DbSet<TiposUsuario> TiposUsuario { get; set; }

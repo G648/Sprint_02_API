@@ -15,9 +15,10 @@ namespace webapi.inlock.codeFirst.manha.Domains
         [Required(ErrorMessage ="Email obrigatório")]
         public string? Email { get; set; }
 
+        //o comprimento de senha tem que ser o mesmo do VARCHAR
         [Column(TypeName ="VARCHAR(100)")]
         [Required(ErrorMessage ="Senha obrigatória!")]
-        [StringLength(20, MinimumLength =6, ErrorMessage ="Senha de 6 á 20 caracteres")]
+        [StringLength(100, MinimumLength =5, ErrorMessage ="Senha de 5 á 20 caracteres")]
         public string? Senha { get; set; }
 
         //Referência da Chave estrangeira (Tabela de TiposUsuario)
